@@ -5,7 +5,9 @@ export FOX_AB_DEVICE=1
 export FOX_VIRTUAL_AB_DEVICE=1
 export OF_DEFAULT_KEYMASTER_VERSION=4.1
 export OF_NO_TREBLE_COMPATIBILITY_CHECK=1
-export OF_MAINTAINER="rama982"
+export OF_MAINTAINER_AVATAR="$(gettop)/device/tecno/LH8n/maintainer_avatar.png"
+cp "${OF_MAINTAINER_AVATAR}" "$(gettop)/bootable/recovery/gui/theme/portrait_hdpi/images/Default/About/maintainer.png"
+export OF_MAINTAINER="Nazephyrus"
 export FOX_VARIANT="A12+"
 export OF_FLASHLIGHT_ENABLE=0
 
